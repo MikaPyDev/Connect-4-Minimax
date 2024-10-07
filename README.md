@@ -60,7 +60,7 @@ Obvious question:
 
 ### Other useful information:
 The code folder contains 2 files:
-1. Connect4S: the game. Start this file if you want to play against a friend;
+1. Connect4S: the game. Start this file if you want to play against a friend (uncomment line 38 for this);
 2. MinimaxS: the controller with the algorithm. Start this file if you want to play against the algorithm.
 3. 
 I want to thank:
