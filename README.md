@@ -6,6 +6,7 @@ This project contains all the python code files you need to make a very strong c
 ### Minimax explanation
 The image below shows the main part of the minimax algorithm in pseudo-code with an example on the right. I will use this image in the explanation below.
 ![image](https://github.com/user-attachments/assets/4c428ed5-f1aa-4440-a58b-9d26ec6c4e98)
+
 After the initial call, the function is called and the following parameters are provided:
 - currentPosition: the current game state
 - 3: this is the depth, i.e. the number of moves deep it looks at
@@ -37,6 +38,7 @@ Going through all possible moves takes quite a long time, especially in games wi
 
 I used alpha-beta pruning. Branches (with nodes attached) that will never be chosen won't be explored: the loop is aborted. This is because a better option has already been explored in such a situation.  Below is the above image supplemented by the prune piece.
 ![image](https://github.com/user-attachments/assets/0902aeb8-9bae-4e83-a274-bfc282fbc886)
+
 The new process is very similar to the one just described so I start my explanation right at the white node at the bottom left, this is the maximizingplayer (he only changes the alpha value!). 
 
 The static evaluation -1 (the score) has been received. Now alpha becomes the max of -infinity and the received score, the first time of course it is always the score. 
@@ -54,8 +56,12 @@ In other words to summarise: white chooses the highest, so 5 or higher, and blac
 Obvious question:
 - maxEval picks the max and then alpha also. Can't maxEval be used as alpha? No, because maxEval has to be reset at each recursive iteration, alpha is remembered and passed (down the tree).
 
+### Is it unbeatable?
 
 ### Other useful information:
-
+The code folder contains 2 files:
+1. Connect4S: the game. Start this file if you want to play against a friend;
+2. MinimaxS: the controller with the algorithm. Start this file if you want to play against the algorithm.
+3. 
 I want to thank:
 https://www.youtube.com/@SebastianLague
