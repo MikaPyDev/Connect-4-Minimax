@@ -57,11 +57,16 @@ Obvious question:
 - maxEval picks the max and then alpha also. Can't maxEval be used as alpha? No, because maxEval has to be reset at each recursive iteration, alpha is remembered and passed (down the tree).
 
 ### Is it unbeatable?
+Coming soon
 
 ### Other useful information:
 The code folder contains 2 files:
-1. Connect4S: the game. Start this file if you want to play against a friend (uncomment line 38 for this);
-2. MinimaxS: the controller with the algorithm. Start this file if you want to play against the algorithm.
-3. 
-I want to thank:
-https://www.youtube.com/@SebastianLague
+  1. Connect4S: the game. Start this file if you want to play against a friend (uncomment line 40 for this);
+  2. MinimaxS: the controller with the algorithm. Start this file if you want to play against the algorithm.
+
+The main libraries from this project are:
+  1. Numpy
+  2. Pygame
+
+Finally, I would like to thank SebastianLague for the clear images:
+  - https://www.youtube.com/@SebastianLague
