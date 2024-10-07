@@ -6,7 +6,6 @@ This project contains all the python code files you need to make a strong connec
 ### Minimax explanation
 The image below shows the main part of the minimax algorithm in pseudo-code with an example on the right. I will use this image in the explanation below.
 ![image](https://github.com/user-attachments/assets/4c428ed5-f1aa-4440-a58b-9d26ec6c4e98)
-
 After the initial call, the function is called and the following parameters are provided:
 - currentPosition: the current game state
 - 3: this is the depth, i.e. the number of moves deep it looks at
