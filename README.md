@@ -58,6 +58,7 @@ Obvious question:
 
 ### Is it unbeatable?
 You can decide how many moves deep it looks (change depthL). The higher this number, the better the bot will play, but the longer the thinking time. In addition, progress will become exponentially lower when increasing the depth. 
+
 I spent hours playing against the bot, but my best result was a draw, once. It plays incredibly strong and just thinks much deeper than an average human. You can win bets on this!
 
 ### Other useful information:
